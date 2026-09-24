@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MANDATE — Government Simulator</title>
+  <meta name="theme-color" content="#7e0f2d" />
+  <link rel="icon" href="mandate-logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-block">
+        <img src="mandate-logo.svg" alt="MANDATE" class="brand-logo" />
+        <div>
+          <div class="brand-name">MANDATE</div>
+          <div class="brand-sub">GOVERN · NEGOTIATE · DELIVER</div>
+        </div>
+      </div>
+      <nav id="nav" class="nav-list"></nav>
+      <div class="sidebar-footer">
+        <div class="westminster-line">♔</div>
+        <div class="footer-motto">A STRONGER<br/>UNITED KINGDOM</div>
+        <button id="resetBtn" class="ghost-btn full">Reset Simulation</button>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div class="pm-card mini">
+          <div class="avatar">EA</div>
+          <div><span class="eyebrow">Prime Minister</span><strong id="pmName">Eleanor Ashford</strong><span id="pmParty">Labour</span></div>
+        </div>
+        <div class="top-stat"><span>Approval Rating</span><strong id="topApproval">34%</strong><small id="topApprovalDelta">▼ 2</small></div>
+        <div class="top-stat"><span>Government Status</span><strong id="topGovStatus">Majority Government</strong><small id="topMajority">Labour 372 / 650</small></div>
+        <div class="top-stat"><span>Next PMQs</span><strong id="nextPmqs">Wed, 13 Nov 2024</strong><small>in 3 days</small></div>
+        <div class="top-stat"><span>Budget Position</span><strong id="budgetPos">-£12.4bn</strong><small>vs. OBR forecast</small></div>
+        <div class="date-box"><strong id="gameDate">Mon, 11 Nov 2024</strong><span id="gameWeek">Year 2, Month 7</span><button id="advanceDayBtn" title="Advance one week">›</button></div>
+      </header>
+
+      <section id="view" class="view"></section>
+    </main>
+  </div>
+
+  <div id="modalRoot"></div>
+  <div id="toastRoot" class="toast-root"></div>
+  <script src="app.js"></script>
+</body>
+</html>
