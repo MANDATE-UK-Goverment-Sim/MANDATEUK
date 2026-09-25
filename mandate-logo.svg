@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
+<title id="t">MANDATE logo</title><desc id="d">Stylised crown and Westminster arch</desc>
+<rect width="256" height="256" rx="52" fill="#102536"/>
+<path d="M48 82l24 20 28-38 28 38 28-38 28 38 24-20-12 72H60z" fill="#f4efe7"/>
+<path d="M72 154h112v14H72zM86 168h84v46H86z" fill="#f4efe7"/>
+<path d="M103 214v-24a25 25 0 0 1 50 0v24" fill="#102536" stroke="#f4efe7" stroke-width="10"/>
+</svg>
